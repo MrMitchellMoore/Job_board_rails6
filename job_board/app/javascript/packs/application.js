@@ -15,7 +15,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 
 import 'bootstrap'
-import '../stylesheets/application'
+import '../stylesheets/application.scss'
 
 document.addEventListener("turbolinks:load", () => {
 	$('[data-toggle="tooltip"]').tooltip()
