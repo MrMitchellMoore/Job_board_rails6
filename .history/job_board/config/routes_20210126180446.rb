@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get 'welcome/about'
   get 'welcome/contact_us'
-  root to: 'jobs#index'
+  root to: 'welcome#index'
 end
